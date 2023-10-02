@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.concurrent.*;
 
-public class MatrixMultiplicationDemo {
+public class MatrixMultiplication {
 
     private static final int NUM_THREADS = Runtime.getRuntime().availableProcessors();
     private static final ForkJoinPool pool = new ForkJoinPool();
